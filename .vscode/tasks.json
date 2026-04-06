@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Win32",
+            "type": "shell",
+            "command": "call \"C:\\Program Files (x86)\\Embarcadero\\Studio\\22.0\\bin\\rsvars.bat\" && msbuild MyProject.dproj /t:Build /p:Config=Debug /p:Platform=Win32",
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "Build Win64",
+            "type": "shell",
+            "command": "call \"C:\\Program Files (x86)\\Embarcadero\\Studio\\22.0\\bin\\rsvars.bat\" && msbuild MyProject.dproj /t:Build /p:Config=Debug /p:Platform=Win64",
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Unit Tests",
+            "type": "shell",
+            "command": "run_tests.bat",
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.pas": "pascal",
+        "*.dfm": "pascal"
+    },
+    "files.autoGuessEncoding": true,
+    "files.eol": "\r\n"
+}

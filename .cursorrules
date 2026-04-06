@@ -1,0 +1,45 @@
+# Delphi Library Development Rules (Advanced)
+
+You are assisting with a large Delphi (Object Pascal) codebase.
+
+CRITICAL LIMITATIONS:
+- No LSP
+- No full project awareness
+- Work only with provided context
+
+GENERAL RULES:
+- Keep units compilable
+- Do not break public API
+- Minimize changes
+- Avoid new dependencies
+
+USES:
+- Maintain correct uses sections
+- Respect interface/implementation separation
+- Avoid circular dependencies
+
+ERROR FIXING:
+- Use compiler output as source of truth
+- Fix missing units
+- Fix type mismatches
+- Fix signatures
+
+REFACTORING:
+- Only refactor provided code
+- Do not assume global changes
+- Keep backward compatibility 
+
+TLS / LOW-LEVEL:
+- Follow RFC strictly
+- Do not invent behavior
+- Prefer minimal changes
+- Highlight uncertainty
+
+WORKFLOW:
+1. Code change
+2. Build
+3. Paste errors
+4. Fix incrementally
+
+PRIORITY:
+Correctness > Safety > Minimal change > Readability
