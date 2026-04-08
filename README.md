@@ -4,11 +4,11 @@
 
 Build modern Delphi applications using AI (Cursor) + RAD Studio.
 
-👉 Write code with AI
-👉 Compile and debug in Delphi
-👉 Safely evolve legacy codebases
-👉 **AI can fix compiler and test errors automatically via build/test feedback loop**
-👉 **Works with ANY Delphi version (no vendor lock-in)**
+👉 Write code with AI  
+👉 Compile and debug in Delphi  
+👉 Safely evolve legacy codebases  
+👉 **AI can fix compiler and test errors automatically via build/test feedback loop**  
+👉 **Works with ANY Delphi version (no vendor lock-in)**  
 
 ---
 
